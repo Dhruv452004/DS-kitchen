@@ -1,0 +1,249 @@
+@media only screen and (max-width: 1300px) {
+
+    /* navbar ka container */
+
+    .navContainer {
+        width: 342px;
+        height: 652px;
+        font-size: x-large;
+        transition: all 0.5s ease-out;
+    }
+
+
+    .nav {
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+
+    .header {
+        flex-direction: column;
+        height: 365px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .h-nav {
+        height: 45px;
+        overflow: hidden;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        margin-top: -15px;
+        font-size: 35px;
+    }
+
+
+    .visibility-class {
+        opacity: 0;
+    }
+
+    /* darklight mode */
+
+    .darklightmode {
+        display: none;
+    }
+
+    .call {
+        margin: 5px auto;
+        font-size: 15px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    /* middle ka First Container */
+    .responsive-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 69px;
+    }
+
+    .resp-img {
+        flex-direction: column;
+        width: 185%;
+        margin-top: -15rem;
+    }
+
+    .resp-img img {
+        width: 50%;
+        margin-top: 290px;
+    }
+
+    .resp-btn {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+    }
+
+    #h22 {
+        font-size: 30px;
+    }
+
+    .para1 {
+        width: 105%;
+        font-size: 15px;
+    }
+
+    /*  Second Container */
+
+    .responsive-container2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -16.2rem;
+    }
+
+    .resp-h2-1 {
+        margin-left: 21rem;
+        font-size: 30px;
+    }
+
+    .p2 {
+        width: 49%;
+        font-size: 15px;
+        margin-left: 20.8rem;
+    }
+
+
+    /* ye products ka  Container hai */
+
+    .mainbox {
+        flex-direction: column;
+    }
+
+    .speicalV {
+        margin-top: 15px;
+        margin-left: -27px;
+    }
+
+    .boxhead {
+        margin-left: -25px;
+    }
+
+    /*  Third Container */
+
+    .responsive-container3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #H2 {
+        width: 115%;
+        font-size: 30px;
+        margin-left: -1rem;
+    }
+
+    .para2 {
+        width: 108%;
+        font-size: 15px;
+        margin-left: -1rem;
+    }
+
+    #btn {
+        width: 40%;
+        margin-left: -1rem;
+    }
+
+
+    /* .Contimg {} */
+
+    .Contimg img {
+        width: 70%;
+        margin-top: 18rem
+    }
+
+    /* ye jo mene resp-container ke  part bnaye the jisme image h 
+    usko hide krne k liye mene same class di hai */
+    .hide-img {
+        display: none;
+    }
+
+
+    /* Fourth Container */
+    .responsive-container4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #h2 {
+        width: 115%;
+        font-size: 28px;
+        margin-left: -1rem;
+    }
+
+    .para3 {
+        width: 105%;
+        font-size: 15px;
+        margin-left: -1rem;
+    }
+
+    .resp-btn-2 {
+        width: 40%;
+        margin-left: -1rem;
+    }
+
+    /*  This is Next Container */
+    #nexth2 {
+        font-size: 28px;
+        margin-left: 2rem;
+    }
+
+    .nextpara {
+        width: 70%;
+        font-size: 15px;
+        margin-left: 5rem;
+    }
+
+    /* This is last Container */
+
+    .lastcontainer {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    .lastbox {
+        flex-direction: column;
+    }
+
+    .lastimg img {
+        width: 11rem;
+        height: 10rem;
+        border-radius: 30px 22px;
+        margin-left: 5rem;
+    }
+
+    /* .lasthead {
+        margin-left: 15px;
+    }
+
+    .lastSpan {
+        margin-left: 15px;
+    } */
+
+    /* last container ke baad ka hr */
+    .hr {
+        height: 0px;
+        width: 0px;
+        background-color: none;
+    }
+
+    /* Footer hide  */
+    .resp-footer-hide{
+        display: none;
+    }
+
+    /* copywrite */
+    .copywrite{
+        height: 75px;
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 22px;
+        background-color: #131A22;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

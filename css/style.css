@@ -1,0 +1,355 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    display: block;
+    height: 182rem;
+    background-color: wheat;
+}
+
+.navContainer {
+    display: block;
+    position: sticky;
+    background-color: #131A22;
+    width: 81rem;
+    height: 6rem;
+    padding: 1rem 1rem;
+    top: 0px;
+}
+
+/*  yha aap logo ki image bhi add kr skte hai mene tho bs naam likha muje vhi shi lga */
+.logo {
+    font-size: 1.5rem;
+    margin-top: -8px;
+}
+
+.logo:hover {
+    text-decoration: underline;
+}
+
+/*  header  and nav*/
+
+.header {
+    display: flex;
+    margin-top: 2.5rem;
+    /* margin-left: 10rem; */
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+    margin-left: 5rem;
+}
+
+.nav li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+/* for Dark And light Screen Mode */
+.darklightmode {
+    height: 4rem;
+    /* width: 5rem; */
+    margin-top: -1.2rem;
+    overflow: hidden;
+
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: wheat;
+}
+
+.call {
+    display: block;
+    margin-left: 20rem;
+    margin-top: -1rem;
+    padding: 1rem 1rem;
+    border: 1px solid rgb(228, 102, 43);
+    border-radius: 1rem 1rem;
+    background-color: rgb(228, 102, 43);
+    color: white;
+}
+
+/*  Mid section ka First conainer */
+
+.container {
+    margin-left: 5.8rem;
+    margin-top: 5rem;
+}
+
+#h22 {
+    font-size: 2.8rem;
+}
+
+.para1 {
+    width: 28rem;
+
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px 4px;
+    background-color: rgb(228, 102, 43);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+.img {
+    display: flex;
+    justify-content: end;
+    margin-top: -15rem;
+}
+
+.img img {
+    object-fit: cover;
+    width: 35rem;
+    height: 17rem;
+}
+
+/* Second Container */
+.h2 {
+    font-size: 2.8rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 25rem;
+}
+
+.p2 {
+    margin-left: 18rem;
+    width: 37rem;
+}
+
+
+
+
+/* Product container */
+.mainbox {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.productimg img {
+    width: 14rem;
+    height: 10rem;
+    /* border-radius: 5rem 5rem 5rem 5rem; */
+    border-radius: 50%;
+}
+
+.speicalV {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxhead {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.mainbox :hover {
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+/*  Third  Container */
+
+#H2 {
+    font-size: 2.8rem;
+    margin-left: 40rem;
+}
+
+.para2 {
+    width: 28rem;
+    margin-left: 40rem;
+
+}
+
+#btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px 4px;
+    background-color: rgb(228, 102, 43);
+    color: white;
+    border: 0px;
+    margin-left: 40rem;
+    cursor: pointer;
+}
+
+
+.Contimg {
+    display: flex;
+    justify-content: start;
+    margin-top: -15rem;
+}
+
+.Contimg img {
+    width: 500px;
+    height: 280px;
+
+}
+
+/* Fourth Container */
+#h2{
+    font-size: 2.8rem;
+}
+
+.para3{
+    width: 28%;
+}
+
+
+/* This is nextConainer */
+.nextcontainer {
+    margin-top: 5rem;
+}
+
+#nexth2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+
+.nextpara {
+    width: 21rem;
+    margin-left: 32rem;
+    font-size: 0.8rem;
+    margin-top: -1rem;
+}
+
+/*   Container */
+.lastcontainer {
+    margin-left: -1rem;
+    margin-top: 2rem;
+}
+
+/* .lastmainbox{
+
+} */
+
+.lastbox {
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5rem;
+    gap: 1rem;
+}
+
+.lasthead {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+/* .lastimg{
+
+} */
+
+.lastimg img {
+    width: 18rem;
+    height: 15rem;
+    border-radius: 30px 22px;
+}
+
+
+.lastSpan {
+    display: flex;
+    justify-content: center;
+    margin-top: -0.8rem;
+    text-decoration: overline;
+}
+
+.hr {
+    /* height: 2rem; */
+    width: 77rem;
+    /* background-color: green; */
+}
+
+/* Footer Start Now */
+
+.footer {
+    margin-top: 5rem;
+    background-color: #131A22;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.footerstrong {
+    margin-top: 5rem;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
+.footerlist {
+    margin-top: 6.8rem;
+    margin-left: -8rem;
+    color: white;
+    font-size: 10.8px;
+}
+
+.footerlist :hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footerlist li {
+    list-style: none;
+    margin-left: -5rem;
+}
+
+#footerlist3 {
+    margin-left: -4.8rem;
+}
+
+/* Copywrite */
+.copywrite {
+    display: flex;
+    justify-content: center;
+    margin-top: -2.9rem;
+    color: white;
+    text-decoration: underline;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5px;
+    top: 15.8px;
+}
+
+.line {
+    width: 35px;
+    background-color: greenyellow;
+    height: 4px;
+    margin: 5px 4px;
+}
+
