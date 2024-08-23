@@ -1,13 +1,12 @@
 * {
+    padding: 0;
+    margin: 0;
     scroll-behavior: smooth;
 }
 
 body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
-    display: block;
-    height: 182rem;
-    background-color: wheat;
 }
 
 .navContainer {
@@ -16,7 +15,7 @@ body {
     background-color: #131A22;
     width: 81rem;
     height: 6rem;
-    padding: 1rem 1rem;
+    padding: 1rem 1.65rem;
     top: 0px;
 }
 
@@ -35,7 +34,6 @@ body {
 .header {
     display: flex;
     margin-top: 2.5rem;
-    /* margin-left: 10rem; */
     justify-content: center;
 }
 
@@ -76,7 +74,7 @@ body {
 }
 
 .light {
-    background-color: wheat;
+    background-color: white;
 }
 
 .call {
@@ -103,6 +101,8 @@ body {
 
 .para1 {
     width: 28rem;
+    margin-top: 1rem;
+    line-height: 20px;
 
 }
 
@@ -112,6 +112,7 @@ body {
     background-color: rgb(228, 102, 43);
     color: white;
     border: 0px;
+    margin-top: 1rem;
     cursor: pointer;
 }
 
@@ -139,6 +140,8 @@ body {
 .p2 {
     margin-left: 18rem;
     width: 37rem;
+    line-height: 30px;
+    margin-top: 10px;
 }
 
 
@@ -177,6 +180,9 @@ body {
 }
 
 /*  Third  Container */
+.container-3 {
+    margin-top: 12rem;
+}
 
 #H2 {
     font-size: 2.8rem;
@@ -186,7 +192,8 @@ body {
 .para2 {
     width: 28rem;
     margin-left: 40rem;
-
+    margin-top: 2rem;
+    line-height: 20px;
 }
 
 #btn {
@@ -196,6 +203,7 @@ body {
     color: white;
     border: 0px;
     margin-left: 40rem;
+    margin-top: 1rem;
     cursor: pointer;
 }
 
@@ -213,14 +221,19 @@ body {
 }
 
 /* Fourth Container */
-#h2{
+#h2 {
     font-size: 2.8rem;
 }
 
-.para3{
+.para3 {
     width: 28%;
+    margin-top: 2rem;
+    line-height: 20px;
 }
 
+.cont-4-btn {
+    margin-top: 1rem;
+}
 
 /* This is nextConainer */
 .nextcontainer {
@@ -238,7 +251,8 @@ body {
     width: 21rem;
     margin-left: 32rem;
     font-size: 0.8rem;
-    margin-top: -1rem;
+    margin-top: 1rem;
+    line-height: 17px;
 }
 
 /*   Container */
@@ -278,15 +292,10 @@ body {
 .lastSpan {
     display: flex;
     justify-content: center;
-    margin-top: -0.8rem;
+    margin-top: 0.2rem;
     text-decoration: overline;
 }
 
-.hr {
-    /* height: 2rem; */
-    width: 77rem;
-    /* background-color: green; */
-}
 
 /* Footer Start Now */
 
@@ -353,3 +362,7 @@ body {
     margin: 5px 4px;
 }
 
+
+/* .burnimg {
+    mix-blend-mode: color-burn;
+} */
